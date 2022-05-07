@@ -20,8 +20,8 @@ const ElectronicsProducts = () => {
         </div>
         <div className="col-span-3 grid grid-cols-2 gap-6">
           {products.map((product) => (
-            <div key={product}>
-              <div className="max-w-sm bg-white rounded-lg shadow-md relative">
+            <div key={product} className="bg-[#f5efe3]">
+              <div className="max-w-sm rounded-lg shadow-md relative">
                 <div
                   style={{
                     position: 'relative',

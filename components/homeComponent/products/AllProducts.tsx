@@ -9,18 +9,18 @@ const AllProducts = () => {
       {products.map((product) => (
         <div
           key={product}
-          className="group relative max-w- mx-5 md:mx-0  rounded overflow-hidden  hover:scale-105 duration-500 bg-gray-100 dark:bg-dark_primary"
+          className="group relative max-w- mx-5 md:mx-0 pt-2  rounded-2xl overflow-hidden  hover:scale-105 duration-500 bg-[#f5efe3] dark:bg-dark_primary"
         >
           <div className="absolute invisible  top-2/4 left-2 group-hover:visible transition-all ease-in duration-100 z-50">
             <BsFillCartPlusFill
               size={30}
               color={'white'}
-              className="mb-3 bg-[#666666] p-1 rounded-sm cursor-pointer"
+              className="mb-3 bg-primary p-1 rounded-sm cursor-pointer"
             />
             <BsFillEyeFill
               size={30}
               color={'white'}
-              className="mb-3 bg-[#666666] p-1 rounded-sm cursor-pointer"
+              className="mb-3 bg-primary p-1 rounded-sm cursor-pointer"
             />
           </div>
           <div className="w-full flex justify-center ">
@@ -34,11 +34,11 @@ const AllProducts = () => {
               <Image src={img} alt="Sunset in the mountains" layout="fill" />
             </div>
           </div>
-          <div className="px-6 py-4">
-            <h6 className="text-yellow-500 font-thin dark:text-yellow-500 text-center">
+          <div className="px-6 pt-4">
+            <h6 className="text-yellow-500 font-thin dark:text-yellow-500 text-left">
               $ {'20'}
             </h6>
-            <div className=" text-sm mb-2 text-center dark:text-dark_text">
+            <div className=" text-sm mb-2 dark:text-dark_text text-left">
               {'name'}
             </div>
           </div>

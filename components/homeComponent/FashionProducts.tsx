@@ -12,7 +12,7 @@ const FashionProducts = () => {
         <div className="col-span-3 grid grid-cols-2 gap-6 h-fit">
           {products.map((product) => (
             <div key={product}>
-              <div className="max-w-sm bg-white rounded-lg shadow-md relative">
+              <div className="max-w-sm bg-[#f5efe3] rounded-lg shadow-md relative">
                 <div
                   style={{
                     position: 'relative',
